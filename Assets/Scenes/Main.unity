@@ -305,7 +305,11 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Game Over
+  m_Text: 'Game Over
+
+
+
+    Tap to Restart'
 --- !u!222 &853135341
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -344,7 +348,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56b7016a9ead0ff4497535b81059948e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scrollSpeed: -1.5
+  scrollSpeed: -2
   isGameOver: 0
   scoreText: {fileID: 1240574452}
   gameOverText: {fileID: 853135337}
@@ -375,7 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spawnRate: 4
-  columnPoolSize: 5
+  columnPoolSize: 6
   columnYMin: -2
   columnYMax: 2
   columnsPrefab: {fileID: 1532942688550540, guid: 98cb87c9d4fa9f6458a3c270c7b0fea2,
@@ -547,7 +551,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1049415763}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.887, y: 0.623, z: 0}
+  m_LocalPosition: {x: -1.477, y: 0.538, z: 0}
   m_LocalScale: {x: 0.473, y: 0.481, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -624,7 +628,7 @@ SpriteRenderer:
   m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 04ac751a49b444003b71d026b10a60cf, type: 3}
-  m_Color: {r: 0.9103774, g: 1, b: 0.9980084, a: 1}
+  m_Color: {r: 0.7905838, g: 0.8867924, b: 0.8826094, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -669,7 +673,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 1219}
+  m_AnchoredPosition: {x: 0, y: 1248}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1240574451
@@ -783,7 +787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1301480294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.3, y: -5.01, z: -33.399807}
+  m_LocalPosition: {x: -2.7, y: -5.99, z: -33.399807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -806,7 +810,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5, y: 0}
-  - {x: 5.2378263, y: 0.045122147}
+  - {x: 6.1724324, y: 0.045122147}
 --- !u!1 &1734071886
 GameObject:
   m_ObjectHideFlags: 0
@@ -841,7 +845,7 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -0.5, y: 0}
-  - {x: 5.2378263, y: 0.00000047683716}
+  - {x: 5.860897, y: 0.00000047683716}
 --- !u!4 &1734071888
 Transform:
   m_ObjectHideFlags: 0
@@ -850,7 +854,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734071886}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.34, y: 5.05, z: -33.399807}
+  m_LocalPosition: {x: -2.61, y: 6.03, z: -33.399807}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -902,7 +906,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

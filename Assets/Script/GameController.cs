@@ -38,7 +38,10 @@ public class GameController : MonoBehaviour
 
     public void Score()
     {
-        if(isGameOver) { return; }
+        if(isGameOver) 
+        { 
+            return; 
+        }
 
         score++;
         scoreText.text = "Score: " + score;
