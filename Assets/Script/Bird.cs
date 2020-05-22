@@ -16,7 +16,10 @@ public class Bird : MonoBehaviour
 
     void Update()
     {
-        if (isDead) { return; }
+        if (isDead) 
+        { 
+            return; 
+        }
 
         if (Input.GetMouseButtonDown(0))
         {

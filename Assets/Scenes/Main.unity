@@ -309,6 +309,12 @@ MonoBehaviour:
 
 
 
+
+
+
+
+
+
     Tap to Restart'
 --- !u!222 &853135341
 CanvasRenderer:
@@ -378,7 +384,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 775a44d2a244e4fe28ab502922018734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnRate: 4
+  spawnRate: 2
   columnPoolSize: 6
   columnYMin: -2
   columnYMax: 2
