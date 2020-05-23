@@ -5,9 +5,9 @@ using UnityEngine;
 public class Column : MonoBehaviour
 {
 
-   private void OnTriggerEnter2D(Collider2D obj)
+   private void OnTriggerEnter2D(Collider2D other)
     {
-        if(obj.GetComponent<Bird>() != null)
+        if(other.GetComponent<Bird>() != null)
         {
             GameController.Instance.Score();
         }
