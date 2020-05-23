@@ -7,13 +7,13 @@ public class MainManue : MonoBehaviour
 {
     public void PlayGame()
     {
-        Debug.Log("Ok");
+        Debug.Log("working");
         SceneManager.LoadScene ("GameScene");
-        //Debug.Log("Pressed");
     }
 
-    public void update()
+    public void Home()
     {
         Debug.Log("Working");
+        SceneManager.LoadScene ("MainManue");
     }
 }

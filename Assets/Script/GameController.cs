@@ -33,6 +33,7 @@ public class GameController : MonoBehaviour
         if(isGameOver && Input.GetMouseButtonDown(0))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene ("MainManue");
         }
     }
 
@@ -51,5 +52,6 @@ public class GameController : MonoBehaviour
     {
         gameOverText.SetActive(true);
         isGameOver = true;
+
     }
 }
