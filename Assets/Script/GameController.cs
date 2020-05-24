@@ -32,7 +32,6 @@ public class GameController : MonoBehaviour
     {
         if(isGameOver && Input.GetMouseButtonDown(0))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
             SceneManager.LoadScene ("MainManue");
         }
     }

@@ -40,7 +40,10 @@ public class ColumnPool : MonoBehaviour
 
             currentColumn++;
 
-            if(currentColumn >= columnPoolSize) { currentColumn = 0; }
+            if(currentColumn >= columnPoolSize) 
+            { 
+                currentColumn = 0; 
+            }
         }
     }
 }
