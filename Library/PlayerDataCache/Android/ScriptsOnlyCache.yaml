@@ -27,6 +27,8 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
     - UnityEngine.UI.Text
+    com.unity.multiplayer-hlapi.Runtime.dll:
+    - UnityEngine.Networking.NetworkCallbacks
   sceneClasses:
     Assets/Scenes/GameScene.unity:
     - Class: 1
@@ -54,27 +56,27 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11138}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11454}
+      Script: {instanceID: 11820}
     - Class: 114
-      Script: {instanceID: 11660}
+      Script: {instanceID: 12026}
     - Class: 114
-      Script: {instanceID: 12038}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12926}
+      Script: {instanceID: 13272}
     - Class: 114
-      Script: {instanceID: 12932}
+      Script: {instanceID: 13278}
     - Class: 114
-      Script: {instanceID: 13038}
+      Script: {instanceID: 13384}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13632}
+      Script: {instanceID: 13974}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 14100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -113,21 +115,21 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11196}
+      Script: {instanceID: 11138}
     - Class: 114
-      Script: {instanceID: 11216}
+      Script: {instanceID: 11588}
     - Class: 114
-      Script: {instanceID: 11496}
+      Script: {instanceID: 11862}
     - Class: 114
-      Script: {instanceID: 12038}
+      Script: {instanceID: 12402}
     - Class: 114
-      Script: {instanceID: 12620}
+      Script: {instanceID: 12972}
     - Class: 114
-      Script: {instanceID: 13038}
+      Script: {instanceID: 13384}
     - Class: 114
-      Script: {instanceID: 13256}
+      Script: {instanceID: 13600}
     - Class: 114
-      Script: {instanceID: 13762}
+      Script: {instanceID: 14100}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -791,4 +793,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainManue.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: /Volumes/Technology/Unity/CrazyBird/Crazy Bird.apk
+  playerPath: C:/Users/User/Desktop/CrazyBird/APK/Crazy Bird.apk

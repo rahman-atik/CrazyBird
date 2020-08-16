@@ -3,15 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainManue : MonoBehaviour
-{
-    public void PlayGame()
-    {
+public class MainManue : MonoBehaviour {
+    public void PlayGame () {
         SceneManager.LoadScene ("GameScene");
     }
 
-    public void Home()
-    {
+    public void Home () {
         SceneManager.LoadScene ("MainManue");
     }
 }

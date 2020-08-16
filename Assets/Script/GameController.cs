@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameController : MonoBehaviour
-{
+public class GameController : MonoBehaviour {
 
     public static GameController Instance;
 
@@ -16,40 +15,31 @@ public class GameController : MonoBehaviour
     public Text scoreText;
     public GameObject gameOverText;
 
-    void Awake()
-    {
-        if (Instance == null)
-        {
+    void Awake () {
+        if (Instance == null) {
             Instance = this;
-        }
-        else if (Instance != this)
-        {
-            Destroy(gameObject);
+        } else if (Instance != this) {
+            Destroy (gameObject);
         }
     }
 
-    void Update()
-    {
-        if(isGameOver && Input.GetMouseButtonDown(0))
-        {
+    void Update () {
+        if (isGameOver && Input.GetMouseButtonDown (0)) {
             SceneManager.LoadScene ("MainManue");
         }
     }
 
-    public void Score()
-    {
-        if(isGameOver) 
-        { 
-            return; 
+    public void Score () {
+        if (isGameOver) {
+            return;
         }
 
         score++;
         scoreText.text = "Score: " + score;
     }
 
-    public void Die()
-    {
-        gameOverText.SetActive(true);
+    public void Die () {
+        gameOverText.SetActive (true);
         isGameOver = true;
 
     }
